@@ -7,7 +7,7 @@ import Single from "./pages/single/Single";
 import Write from "./pages/write/Write";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
-  const currentUser = false;
+  const currentUser = true;
   return (
     <Router>
       <Topbar />
